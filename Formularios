@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Formulario</title 
+</head>
+<body bgcolor="purple">
+<fieldset>
+    <legend>Exemplo de formulario</legend>
+<h2>Formularios escritos</h2>
+<form>
+<p>
+<label>Nome</label>
+<input type="text" name="nome"</input>
+<br><br>
+<label>Sobrenome</label>
+<input type="text" name="sobrenome"</input>
+</p>
+</form>
+<h2>Formulario de multipla escolha</h2>
+<p>
+<label>Sexo:</label><br>
+<input type="radio" value="Masculino" name="sexo">Masculino<br>
+<input type="radio" value="Feminino" name="sexo">Feminino<br>
+<h2>Senha</h2>
+<labe>Login</label><br>
+<input type="text" name="login"><br>
+<label>Senha</label><br>
+<input type="password" name="senha"><br>
+<h2>Checkbox</h2><br>
+<label>Onde Estuda:</label><br>
+<input type="checkbox" name="oe" value="Premem">Premem<br>
+<input type="checkbox" name="oe" value="Gomes">Gomes<br>
+<input type="checkbox" name="oe" value="Nestor">Nestor<br>
+<input type="checkbox" name="oe" value="Solon">Solon<br>
+<input type="checkbox" name="oe" value="Outro">Outro<br>
+<h2>Bottom submit</h2><br>
+<form action="processa.html" method="GET">
+<button type="submit">Enviar</button>
+<button type="reset">Reset</button><br>
+</form>
+<h2>Observacoes</h2><br>
+<form action="processa.html" method="GET">
+<textarea name="observacoes" rows="4" cols="20"></textarea><br>
+<input type="submit" name="enviar" value="enviar"><br>
+</form>
+<h2>Selecao</h2>
+<br><form action="processa.html" method="GET"></form>
+    <label>Cidade:</label>
+    <select>
+        <option> Nova Cruz</option>
+        <option> Serrinha</option>
+        <option> Guaiba </option>
+    </select>
+</form>
+</fieldset>
+</body>
+</html>
