@@ -1,0 +1,39 @@
+<script language="javascript">
+    function resultado(){
+    const a=form.bairro.value;
+        if(a=="sr"){
+            alert("Santa Rita // 8:00 / 9:00 / 10:00 / 11:00");
+    }
+        if(a=="colina"){
+            alert("Colina // 8:00 / 9:00 / 10:00 / 11:00");
+        }
+        if(a=="jl"){
+            alert("Jardim dos Lagos // 8:00 / 9:00 / 10:00 / 11:00");
+        }  
+        if(a=="alegria"){
+            alert("Alegria // 8:00 / 9:00 / 10:00 / 11:00");
+        }
+    }
+</script>
+<form name="form">
+    <br><br><br>
+    <table border cellpadding=10 cellspacing=1>
+        <tr>
+        <td>Horários</td> 
+    </tr>
+        <tr>
+            <td>Linha:</td>
+        <td><br>
+            <select name="bairro">
+                <option value="sr"> Santa Rita</option>
+                <option value="colina"> Colina</option>
+                <option value="jl"> Jardim dos Lagos </option>
+                <option value="alegria">Alegria</option>
+            </select>
+        </td>
+        <td><input type="button" value="Horário" onClick="resultado()"></td> </td>
+    </tr>
+</table>
+</select><br><br>
+
+</form>
